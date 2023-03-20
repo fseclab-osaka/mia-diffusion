@@ -47,4 +47,4 @@ Our implementation uses the source code from the following repositories:
 <https://github.com/DingfanChen/GAN-Leaks>   
 <https://github.com/ermongroup/ddim>   
 <https://github.com/Natsu6767/DCGAN-PyTorch>   
-<https://github.com/bioinf-jku/TTUR> (tensorflow)   
+<https://github.com/bioinf-jku/TTUR> (tensorflow)
