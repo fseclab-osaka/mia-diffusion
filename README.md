@@ -1,13 +1,15 @@
 # Membership Inference Attacks against Diffusion Models
+## Paper
+https://arxiv.org/abs/2302.03262
 
 ## Requirements
 See `myenv.yml`.
 
-## Dataset
+## Datasets
 CIFAR-10: Auto download to `dataset/cifar10`.   
 CelebA: Manual download to `dataset/celeba`.
 
-## Model
+## Models
 ### DDIM
 Training & Sampling
 ```bash
@@ -28,7 +30,7 @@ FID Evaluation
 cd TTUR
 python fid.py ../<ddim/dcgan>/"PROJECT_PATH"/samples_"EPOCH_NUM"/images ./<fid_stats_cifar10_train/fid_stats_celeba_60k>.npz
 ```
-## Attack
+## Attacks
 ### White-box
 ```bash
 cd attacks
